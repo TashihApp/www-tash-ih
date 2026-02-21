@@ -1,8 +1,8 @@
-# tashih.app
+# tash.ih
 
-Landing page and privacy policy for [Tashih](https://tashih.app), a native macOS application that enhances Turkish long-form text using local AI. The site serves as the public-facing product page, privacy policy, and App Store marketing link destination.
+Landing page and privacy policy for [Tashih](https://tash.ih), a native macOS application that enhances Turkish long-form text using local AI. The site serves as the public-facing product page, privacy policy, and App Store marketing link destination.
 
-**Live:** [https://tashih.app](https://tashih.app)
+**Live:** [https://tash.ih](https://tash.ih)
 
 ---
 
@@ -65,7 +65,7 @@ The site uses a dark theme with an amber accent (`#F5A623`) matching the Tashih 
 
 | File | Purpose |
 |---|---|
-| `CNAME` | Custom domain: `tashih.app` |
+| `CNAME` | Custom domain: `tash.ih` |
 
 DNS is managed through Cloudflare with CNAME records pointing to GitHub Pages.
 
@@ -107,7 +107,7 @@ python3 -m http.server 8000
 www-tash-ih/
 ├── index.html    # Landing page — product overview, features, pricing
 ├── privacy.html  # Privacy policy
-├── CNAME         # Custom domain configuration (tashih.app)
+├── CNAME         # Custom domain configuration (tash.ih)
 ├── .gitignore    # Standard exclusions
 └── README.md     # This file
 ```
@@ -132,4 +132,4 @@ www-tash-ih/
 
 ## License
 
-This website is part of the [Tashih](https://tashih.app) project. All rights reserved.
+This website is part of the [Tashih](https://tash.ih) project. All rights reserved.
