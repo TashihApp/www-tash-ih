@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gizlilik Politikasi — Tashih</title>
+  <meta name="description" content="Tashih gizlilik politikasi. Turkce yazi gelistirme araci icin gizlilik bilgileri.">
+  <link rel="icon" type="image/png" href="/assets/app-icon.png">
+  <style>
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --amber: #F5A623;
+      --amber-dim: #c9861a;
+      --bg: #09090b;
+      --bg-card: #111113;
+      --bg-subtle: #18181b;
+      --text: #fafafa;
+      --text-secondary: #a1a1aa;
+      --text-dim: #71717a;
+      --border: rgba(255, 255, 255, 0.06);
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'SF Pro Text', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 100;
+      padding: 0 32px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(9, 9, 11, 0.7);
+      backdrop-filter: saturate(180%) blur(20px);
+      -webkit-backdrop-filter: saturate(180%) blur(20px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-brand {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      text-decoration: none;
+      color: var(--text);
+    }
+
+    .nav-brand img {
+      width: 32px;
+      height: 32px;
+      border-radius: 8px;
+    }
+
+    .nav-brand span {
+      font-size: 18px;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+    }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .nav-links a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-size: 14px;
+      font-weight: 500;
+      padding: 6px 14px;
+      border-radius: 8px;
+      transition: all 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--text);
+      background: var(--bg-subtle);
+    }
+
+    .content {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 140px 32px 80px;
+    }
+
+    .content h1 {
+      font-size: 40px;
+      font-weight: 700;
+      letter-spacing: -1px;
+      margin-bottom: 8px;
+    }
+
+    .content .updated {
+      color: var(--text-dim);
+      font-size: 14px;
+      margin-bottom: 48px;
+    }
+
+    .content h2 {
+      font-size: 22px;
+      font-weight: 600;
+      letter-spacing: -0.3px;
+      margin-top: 40px;
+      margin-bottom: 12px;
+    }
+
+    .content p {
+      color: var(--text-dim);
+      font-size: 16px;
+      line-height: 1.7;
+      margin-bottom: 16px;
+    }
+
+    .content ul {
+      color: var(--text-dim);
+      font-size: 16px;
+      line-height: 1.7;
+      margin-bottom: 16px;
+      padding-left: 24px;
+    }
+
+    .content li {
+      margin-bottom: 6px;
+    }
+
+    .content a {
+      color: var(--amber);
+      text-decoration: none;
+    }
+
+    .content a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      border-top: 1px solid var(--border);
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 32px;
+      text-align: center;
+      color: var(--text-dim);
+      font-size: 14px;
+    }
+
+    footer a {
+      color: var(--amber);
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 640px) {
+      nav { padding: 0 20px; }
+      .nav-links { display: none; }
+      .content { padding: 120px 20px 60px; }
+      .content h1 { font-size: 30px; }
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <a href="/" class="nav-brand">
+      <img src="/assets/app-icon.png" alt="Tashih">
+      <span>Tashih</span>
+    </a>
+    <div class="nav-links">
+      <a href="/">Ana Sayfa</a>
+      <a href="mailto:hi@alp.me">Iletisim</a>
+    </div>
+  </nav>
+
+  <main class="content">
+    <h1>Gizlilik Politikasi</h1>
+    <p class="updated">Son guncelleme: 21 Subat 2026</p>
+
+    <h2>Genel Bakis</h2>
+    <p>Tashih, tamamen Mac'inizde calisan bir Turkce yazi gelistirme aracidir. Gizliliginizi korumaya kararliyiz. Bu politika, Tashih'in verilerinizi nasil ele aldigini aciklar.</p>
+
+    <h2>Veri Toplama</h2>
+    <p>Tashih herhangi bir kisisel veri <strong>toplamaz</strong>, <strong>iletmez</strong> veya <strong>depolamaz</strong>. Uygulama tamamen cihazinizda calisir ve hicbir harici sunucuyla iletisim kurmaz. Tum metin analizi ve duzeltme islemleri %100 yerel olarak gerceklesir.</p>
+
+    <h2>Tashih'in Eristikleri</h2>
+    <p>Tashih, islevlerini yerine getirmek icin asagidaki sistem kaynaklarina erisir:</p>
+    <ul>
+      <li><strong>Dosya Sistemi:</strong> Belge iceri aktarimi icin dosya secici ve surukle-birak araciligiyla erisim. Yalnizca sizin sectikleriniz dosyalar okunur.</li>
+      <li><strong>Ag (Yerel):</strong> Yalnizca yerel makinenizde calisan Ollama sunucusuyla iletisim kurar (varsayilan: localhost:11434). Hicbir veri internete gonderilmez.</li>
+    </ul>
+
+    <h2>Analitik ve Izleme</h2>
+    <p>Tashih hicbir analitik, telemetri, cokme raporu veya izleme mekanizmasi icermez. Kullanim verileri toplanmaz ve hicbir ucuncu tarafla paylasilmaz.</p>
+
+    <h2>Ucuncu Taraf Hizmetleri</h2>
+    <p>Tashih, yalnizca yerel makinenizde calisan <strong>Ollama</strong> ile etkilesim kurar. Ollama, kendi bilgisayarinizda calisan acik kaynakli bir yerel LLM calisma ortamidir. Metinleriniz hicbir harici yapay zeka hizmetine gonderilmez.</p>
+
+    <h2>Veri Depolama</h2>
+    <p>Tashih, belgelerinizi ve uygulama tercihlerinizi yerel olarak <strong>SwiftData</strong> kullanarak Mac'inizde saklar. Bu veriler cihazinizdan asla cikmaz. Veritabani tamamen sizin kontrolunuzdedir ve istediginiz zaman silinebilir.</p>
+
+    <h2>Cocuklarin Gizliligi</h2>
+    <p>Tashih, 13 yasindan kucuk cocuklar dahil olmak uzere hicbir kisiden kisisel bilgi toplamaz.</p>
+
+    <h2>Politika Degisiklikleri</h2>
+    <p>Bu gizlilik politikasini guncellersek, revize edilmis surumu bu sayfada guncellenmi s tarihle birlikte yayinlayacagiz.</p>
+
+    <h2>Iletisim</h2>
+    <p>Bu gizlilik politikasi hakkinda sorulariniz varsa bize <a href="mailto:hi@alp.me">hi@alp.me</a> adresinden ulasabilirsiniz.</p>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Tashih. macOS icin <a href="https://alp.me" target="_blank" rel="noopener">Alp Ozcan</a> tarafindan gelistirildi.</p>
+  </footer>
+
+</body>
+</html>
